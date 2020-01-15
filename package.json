@@ -1,0 +1,8 @@
+{
+  "name": "Gram",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/vapvin/Gram.git",
+  "author": "vapvin <tpehdj12@daum.net>",
+  "license": "MIT"
+}
