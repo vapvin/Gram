@@ -1,8 +1,17 @@
 {
   "name": "Gram",
   "version": "1.0.0",
-  "main": "index.js",
   "repository": "https://github.com/vapvin/Gram.git",
   "author": "vapvin <tpehdj12@daum.net>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "graphql-yoga": "^1.18.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "nodemon": "^2.0.2"
+  },
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/server.js"
+  }
 }
