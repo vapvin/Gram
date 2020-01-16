@@ -1,10 +1,10 @@
-import dotenv from 'dotenv';
-import path from 'path';
-dotenv.config({ path: path.resolve(__dirname, '.env') });
+import dotenv from "dotenv";
+import path from "path";
+dotenv.config({ path: path.resolve(__dirname, ".env") });
 
-import { adjectives, nouns } from './words';
-import nodemailer from 'nodemailer';
-import sgTransport from 'nodemailer-sendgrid-transport';
+import { adjectives, nouns } from "./words";
+import nodemailer from "nodemailer";
+import sgTransport from "nodemailer-sendgrid-transport";
 
 export const generatorSecret = () => {
   const randomNumber = Math.floor(Math.random() * adjectives.length);
@@ -24,10 +24,10 @@ export const sendMail = email => {
 
 export const sendSecretMail = (address, secret) => {
   const email = {
-    from: 'vins@gram.com',
+    from: "vins@gram.com",
     to: address,
-    subject: 'Login Secret for Gram',
-    hyml: `Hello! Your login secret it ${secret}. <br />Copy paste on the app/website to log in`
+    subject: "Login Secret for Gram",
+    hyml: `Hello! Your login secret it <b>?${secret}</b> <br />Copy paste on the app/website to log in`
   };
   return sendMail(email);
 };
