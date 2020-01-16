@@ -27,7 +27,7 @@ export const sendSecretMail = (address, secret) => {
     from: "vins@gram.com",
     to: address,
     subject: "Login Secret for Gram",
-    hyml: `Hello! Your login secret it <b>?${secret}</b> <br />Copy paste on the app/website to log in`
+    hyml: `Hello! Your login secret is <strong>?${secret}</strong> <br />Copy paste on the app/website to log in`
   };
   return sendMail(email);
 };
