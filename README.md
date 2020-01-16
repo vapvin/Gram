@@ -4,7 +4,9 @@ Using By Node.js + Express + GraphQL + Prisma + React + ReactNative Make Web and
 
 ## User Stories
 
-- [ ] Log in
+- [x] Log in
+- [ ] Request Secret
+- [ ] Confirm Secret (Login)
 - [ ] Like / Unlike a Photo
 - [ ] Comment on a Photo
 - [ ] Search by User
