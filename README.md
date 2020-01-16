@@ -4,6 +4,7 @@ Using By Node.js + Express + GraphQL + Prisma + React + ReactNative Make Web and
 
 ## User Stories
 
+- [ ] Log in
 - [ ] Like / Unlike a Photo
 - [ ] Comment on a Photo
 - [ ] Search by User
@@ -13,7 +14,6 @@ Using By Node.js + Express + GraphQL + Prisma + React + ReactNative Make Web and
 - [ ] See the full Photo
 - [ ] Edit my profile
 - [ ] Create account
-- [ ] Log in
 - [ ] Upload Photo
 - [ ] Edit the Photo(Delete)
 - [ ] See the feed
