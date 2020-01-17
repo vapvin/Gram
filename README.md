@@ -7,7 +7,7 @@ Using By Node.js + Express + GraphQL + Prisma + React + ReactNative Make Web and
 - [x] Log in
 - [x] Request Secret
 - [x] Confirm Secret (Login)
-- [ ] Like / Unlike a Photo
+- [x] Like / Unlike a Photo
 - [ ] Comment on a Photo
 - [ ] Search by User
 - [ ] Search by location
