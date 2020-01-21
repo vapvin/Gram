@@ -9,8 +9,8 @@ Using By Node.js + Express + GraphQL + Prisma + React + ReactNative Make Web and
 - [x] Confirm Secret (Login)
 - [x] Like / Unlike a Photo
 - [x] Comment on a Photo
-- [ ] Search by User
-- [ ] Search by location
+- [x] Search by User
+- [x] Search by location
 - [ ] See user profile
 - [ ] Follow / Unfollow User
 - [ ] See the full Photo
