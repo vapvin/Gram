@@ -11,7 +11,6 @@ Using By Node.js + Express + GraphQL + Prisma + React + ReactNative Make Web and
 - [x] Comment on a Photo
 - [x] Search by User
 - [x] Search by location
-- [ ] See user profile
 - [ ] Follow / Unfollow User
 - [ ] See the full Photo
 - [ ] Edit my profile
