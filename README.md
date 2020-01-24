@@ -13,8 +13,10 @@ Using By Node.js + Express + GraphQL + Prisma + React + ReactNative Make Web and
 - [x] ~~Search by location~~
 - [x] ~~Follow User~~
 - [x] ~~Unfollow User~~
+- [x] ~~Edit User profile~~
+- [x] ~~See User Profile~~
+- [ ] See My Profile
 - [ ] See the full Photo
-- [ ] Edit my profile
 - [ ] Create account
 - [ ] Upload Photo
 - [ ] Edit the Photo(Delete)
