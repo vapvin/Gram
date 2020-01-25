@@ -43,7 +43,9 @@ export default {
             }
           },
           {
-            id
+            post: {
+              id
+            }
           }
         ]
       });
