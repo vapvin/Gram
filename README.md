@@ -4,6 +4,7 @@ Using By Node.js + Express + GraphQL + Prisma + React + ReactNative Make Web and
 
 ## User Stories
 
+- [x] ~~Create account~~
 - [x] ~~Log in~~
 - [x] ~~Request Secret~~
 - [x] ~~Confirm Secret (Login)~~
@@ -15,9 +16,12 @@ Using By Node.js + Express + GraphQL + Prisma + React + ReactNative Make Web and
 - [x] ~~Unfollow User~~
 - [x] ~~Edit User profile~~
 - [x] ~~See User Profile~~
-- [x] See My Profile
-- [x] See the full Photo
-- [ ] Create account
+- [x] ~~See My Profile~~
+- [x] ~~See the full Photo~~
 - [ ] Upload Photo
 - [ ] Edit the Photo(Delete)
 - [ ] See the feed
+- [ ] See rooms
+- [ ] See room
+- [ ] Send private Message
+- [ ] Receive Message (Realtime)
