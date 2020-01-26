@@ -12,6 +12,8 @@ export default {
           data: { caption, location },
           where: { id }
         });
+      } else {
+        throw Error("You can't do that");
       }
     }
   }
