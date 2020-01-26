@@ -21,7 +21,7 @@ Using By Node.js + Express + GraphQL + Prisma + React + ReactNative Make Web and
 - [x] ~~Upload Photo~~
 - [x] ~~Edit the Photo(Delete)~~
 - [x] ~~See the feed~~
-- [ ] See rooms
-- [ ] See room
 - [ ] Send private Message
+- [x] ~~See rooms~~
+- [ ] See room
 - [ ] Receive Message (Realtime)
