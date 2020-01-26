@@ -20,7 +20,7 @@ Using By Node.js + Express + GraphQL + Prisma + React + ReactNative Make Web and
 - [x] ~~See the full Photo~~
 - [x] ~~Upload Photo~~
 - [x] ~~Edit the Photo(Delete)~~
-- [ ] See the feed
+- [x] ~~See the feed~~
 - [ ] See rooms
 - [ ] See room
 - [ ] Send private Message
