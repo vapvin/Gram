@@ -18,8 +18,8 @@ Using By Node.js + Express + GraphQL + Prisma + React + ReactNative Make Web and
 - [x] ~~See User Profile~~
 - [x] ~~See My Profile~~
 - [x] ~~See the full Photo~~
-- [ ] Upload Photo
-- [ ] Edit the Photo(Delete)
+- [x] ~~Upload Photo~~
+- [x] ~~Edit the Photo(Delete)~~
 - [ ] See the feed
 - [ ] See rooms
 - [ ] See room
