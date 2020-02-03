@@ -24,4 +24,4 @@ Using By Node.js + Express + GraphQL + Prisma + React + ReactNative Make Web and
 - [x] ~~Send private Message~~
 - [x] ~~See rooms~~
 - [x] ~~See room~~
-- [ ] Receive Message (Realtime)
+- [x] ~~Receive Message (Realtime)~~
