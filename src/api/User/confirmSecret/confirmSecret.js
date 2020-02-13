@@ -3,11 +3,11 @@ import { generateToken } from '../../../utils';
 
 export default {
   Mutation: {
-    confirmSecret: async (_, args, { request }) => {
+    confirmSecret: async (_, args) => {
       const { email, secret } = args;
       const user = await prisma.user({ email });
       if (user.loginSecret === secret) {
-        await prisma.uadateUser({
+        await prisma.updateUser({
           where: { id: user.id },
           data: {
             loginSecret: ''
@@ -15,7 +15,7 @@ export default {
         });
         return generateToken(user.id);
       } else {
-        throw Error('Worng email/secret combination');
+        throw Error('Wrong email/secret combination');
       }
     }
   }
